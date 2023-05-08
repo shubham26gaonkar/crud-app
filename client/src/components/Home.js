@@ -22,7 +22,7 @@ const Home = () => {
 
     const getdata = async () => {
 
-        const res = await fetch("https://crud-backend-pevw.onrender.com//getdata", {
+        const res = await fetch("https://crud-backend-pevw.onrender.com/getdata", {
             method: "GET",
             headers: {
                 "Content-Type": "application/json"
@@ -48,7 +48,7 @@ const Home = () => {
 
     const deleteuser = async (id) => {
 
-        const res2 = await fetch(`https://crud-backend-pevw.onrender.com//deleteuser/${id}`, {
+        const res2 = await fetch(`https://crud-backend-pevw.onrender.com/deleteuser/${id}`, {
             method: "DELETE",
             headers: {
                 "Content-Type": "application/json"
